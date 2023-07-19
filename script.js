@@ -20,7 +20,7 @@ async function checkWeather(city) {
 
     const cityElement = document.querySelector('.place');
     cityElement.innerHTML = data.name;
-    pwani
+    
     const tempElement = document.querySelector('.temp');
     tempElement.innerHTML = data.main.temp + ' °C';
 
