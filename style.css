@@ -39,6 +39,9 @@
   overflow-x: hidden;
   align-items: center;
 }
+.txt{
+    font-size: 0.8em;
+}
 .wrapper {
   padding: 45px 10px;
   width: 390px;
