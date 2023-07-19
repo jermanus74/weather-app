@@ -1,36 +1,4 @@
-// // 'use strict'
 
-// const apiKey = "d22bc8f49087b7637159dc32db395732";
-// const apiUrl =
-//   "https://api.openweathermap.org/data/2.5/weather?q=&units=metric&appid=" + apiKey;
-// const searchField=document.querySelector("input.text");
-// const searchBtn=document.querySelector("button.icon");
-
-
-// async function checkWeather(city) {
-//   try {
-//     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
-//     const response = await fetch(apiUrl + city);
-//     if (!response.ok) {
-//       throw new Error("Failed to fetch weather data");
-//     }
-//     const data = await response.json();
-//     console.log(data);
-
-//     const city = document.querySelector(".place");
-//     city.innerHTML = data.name;
-//     document.querySelector(".temp").innerHTML = data.main.temp + " °C";
-//     document.querySelector(".humidity").innerHTML = data.main.humidity +" %";
-//     document.querySelector(".wind").innerHTML = data.wind.speed +"km/h";
-//   } catch (error) {
-//     console.error("Error occurred while fetching weather data:", error);
-//   }
-// }
-// searchBtn.addEventListener("click",()=>{
-//   const town=searchField.value
-//   checkWeather(town);
-
-// })
 'use strict';
 
 const apiKey = 'd22bc8f49087b7637159dc32db395732';
@@ -52,7 +20,7 @@ async function checkWeather(city) {
 
     const cityElement = document.querySelector('.place');
     cityElement.innerHTML = data.name;
-
+    pwani
     const tempElement = document.querySelector('.temp');
     tempElement.innerHTML = data.main.temp + ' °C';
 
