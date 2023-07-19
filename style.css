@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.humidty{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    margin: 10px;
+    /* text-transform: capitalize; */
+    font-size: 1em;
+}
+
+  .humidy_txt{
+color: rgb(5, 5, 101);
+  }
+  .icon1{
+    margin-left: 10px;
+    padding: 5px;
+  }
+.container{
+    background:linear-gradient(to left top, rgb(176, 153, 235),rgb(238, 238, 238));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    padding: 10px;
+    padding: 45px 60px;
+    /* width: 360px; */
+    height: 500px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-align: center;
+    outline: 0;
+    background: linear-gradient(to right bottom,aqua,orangered);
+}
+.text{
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #333;
+    color: rgb(1, 1, 92);
+    font-size: 1em;
+    flex: 1;
+    cursor: auto;
+} 
+.place{
+    text-transform: capitalize;
+    margin: 10px;
+    padding: 10px;
+}
+.icon{
+    margin: 0 10px;
+    padding: 14px ;
+    margin-right:5px ;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+}
+.icon:is(:hover,:focus){
+    transform: translateX(4px);
+    background-color: rgb(125, 255, 210);
+}
+.img_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.img_details img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    
+}
+.humidty{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    color: rgb(0, 0, 62);
+}
