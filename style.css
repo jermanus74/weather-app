@@ -13,7 +13,6 @@
     grid-template-columns: repeat(2,1fr);
     padding: 10px;
     margin: 10px;
-    /* text-transform: capitalize; */
     font-size: 1em;
 }
 
@@ -36,8 +35,8 @@ color: rgb(5, 5, 101);
 }
 .wrapper{
     padding: 10px;
-    padding: 45px 60px;
-    /* width: 360px; */
+    padding: 45px 30px;
+
     height: 500px;
     color: #fff;
     font-weight: 900;
